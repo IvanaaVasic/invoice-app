@@ -1,0 +1,55 @@
+.light-version {
+  --colorbody: #f2f2f2;
+  --headlinetext: #0c0e16;
+  --paragraphtext: #858bb2;
+  --nocolorbtn: #f2f2f2;
+  --violetcolorbtn: #7c5dfa;
+  --whitetext: #ffffff;
+  --boxshadow: 0px 10px 10px -10px #48549f1a;
+  --invoicetext: #7e88c3;
+  --statusgreen: #33d69f;
+  --statusorange: #ff8f00;
+  --redcolorbtn: #ec5757;
+  --paymentbackground: #f9fafe;
+  --darkpart: #373b53;
+  --modalcolor: rgba(0, 0, 0, 0.5);
+}
+
+.dark-version {
+  --colorbody: #000000;
+}
+
+.delete-confirmation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--modalcolor);
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+
+.delete-modal {
+  background-color: var(--whitetext);
+  border-radius: 8px;
+  padding: 48px;
+  width: 33.5vw;
+}
+.delete-heading {
+  padding-bottom: 13px;
+}
+.delete-paragraph {
+  padding-bottom: 16px;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+}
+
+.btn-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

@@ -1,0 +1,281 @@
+.new {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-side {
+  width: 38vw;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 76px;
+  padding-top: 55px;
+  padding-right: 55px;
+  padding-bottom: 0px;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  position: absolute;
+  left: 68px;
+}
+
+.bill-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.violet-text {
+  color: #7c5dfa;
+  margin-top: 48px;
+  font-weight: 700;
+}
+
+.light-border {
+  border: 1px solid #dfe3fa;
+  padding-left: 20px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.bold-text {
+  color: #0c0e16;
+  font-weight: 700;
+}
+
+.adress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.city,
+.postcode,
+.country {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  align-items: flex-start;
+}
+
+.invoice-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.invoice-date-new {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 47%;
+}
+
+.calendar {
+  justify-self: flex-end;
+  padding-right: 10px;
+}
+
+.arrow-down {
+  justify-self: flex-end;
+}
+
+.item-list-heading {
+  font-size: 18px;
+  color: #777f98;
+  margin-top: 30px;
+  display: flex;
+  padding-bottom: 16px;
+}
+
+.item-list-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  width: 30%;
+}
+
+.quantity {
+  width: 10%;
+}
+
+.price {
+  width: 20%;
+}
+.total {
+  width: 20%;
+}
+.no-border {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.trash {
+  width: 13px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.no-color-btn-2 {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  color: #7e88c3;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+.buttons-down {
+  background-color: white;
+  width: 38vw;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-left: 76px;
+  padding-right: 55px;
+  position: fixed;
+  bottom: 0;
+  left: 68px;
+}
+
+.no-color-btn-3 {
+  background-color: #f2f2f2;
+  height: 48px;
+  width: 96px;
+  border-radius: 24px;
+  border: none;
+  color: #7e88c3;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 39px;
+  padding: 16px 23px;
+}
+
+.buttons-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.draft-btn {
+  background-color: #373b53;
+  color: #888eb0;
+  width: 133px;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.violet-btn-2 {
+  background-color: #7c5dfa;
+  width: 128px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+input {
+  width: 90%;
+  outline: none;
+  border: none;
+  font-family: "Spartan";
+  font-weight: 700;
+  color: var(--headlinetext);
+}
+.new-subHeading-form {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.new-address {
+  display: flex;
+}
+.text-field {
+  color: #0c0e16;
+  font-weight: 700;
+  height: 30px;
+}
+.text-field-total {
+  color: #888eb0;
+  font-weight: 700;
+  height: 30px;
+}
+.small-text-heading {
+  display: flex;
+  padding-bottom: 10px;
+}
+.dropdown-terms {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+@media only screen and (max-width: 940px) {
+  .left-side {
+    left: 0px;
+    padding-top: 110px;
+    width: 80vw;
+  }
+  .buttons-down {
+    left: 0px;
+    width: 80vw;
+  }
+  .buttons-down-2 {
+    left: 0px;
+    width: 80vw;
+  }
+}

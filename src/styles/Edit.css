@@ -1,0 +1,97 @@
+.light-version {
+  --colorbody: #f2f2f2;
+  --headlinetext: #0c0e16;
+  --paragraphtext: #858bb2;
+  --nocolorbtn: #f2f2f2;
+  --violetcolorbtn: #7c5dfa;
+  --whitetext: #ffffff;
+  --boxshadow: #48549f1a;
+  --invoicetext: #7e88c3;
+  --statusgreen: #33d69f;
+  --statusorange: #ff8f00;
+  --redcolorbtn: #ec5757;
+  --paymentbackground: #f9fafe;
+  --darkpart: #373b53;
+  --modalcolor: rgba(0, 0, 0, 0.5);
+}
+
+.edit {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--modalcolor);
+}
+
+.buttons-down-2 {
+  background-color: white;
+  width: 38vw;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-top: 32px;
+  padding-left: 76px;
+  padding-right: 55px;
+  position: fixed;
+  bottom: 0;
+  left: 68px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.filter-2 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(72, 84, 159, 0.25);
+  border-radius: 8px;
+  align-items: flex-start;
+  position: absolute;
+  /* display: none;  */
+}
+
+.container-1 {
+  width: 90%;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  border-bottom: 1px solid #dfe3fa;
+  padding-left: 20px;
+}
+.container-1 p:hover {
+  color: var(--violetcolorbtn);
+}
+
+.number-of-invoice {
+  display: flex;
+}
+@media only screen and (max-width: 940px) {
+  .buttons-down-2 {
+    left: 0px;
+    width: 80vw;
+  }
+}
